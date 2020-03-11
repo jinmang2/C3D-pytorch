@@ -3,7 +3,7 @@ import torch
 import torch.utils.data as data
 
 class Vision(data.Dataset):
-    _repr_indedt = 4
+    _repr_indent = 4
     
     def __init__(self, toor,
         transforms=None, transform=None, target_transform=None):
